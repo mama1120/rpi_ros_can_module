@@ -91,7 +91,7 @@ If the script cannot be executed, make it executable first:
 ```bash
 chmod +x build_docker.sh
 ```
-The container only needs to be built once.
+The container only needs to be built once!
 
 ---
 
@@ -139,7 +139,7 @@ This will provide real-time feedback on the CAN communication status, such as:
 - Data acquisition
 - Bus availability or congestion
 
-To stop the CAN communication correctly, use the following command:
+If the CAN communication is not stopped correclty, for example if a device loses power, the line might still appear busy. If that is the case, use the following command:
 
 ```bash
 sudo ip link set can0 down
@@ -286,7 +286,11 @@ To shutdown CAN:
 sudo ip link set can0 down
 ```
 ---
-
+**Permission Denied When Running Bash Scripts**
+If the file cannot be executed, try changing the permissions and make the file executable (e.g. can.sh, start_docker.sh, build_docker.sh) 
+```bash
+chmod +x <file_name.sh>
+```
 ## Repository Structure
 
 ```
