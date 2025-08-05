@@ -156,7 +156,7 @@ In a new terminal, launch the container:
 
 Your prompt should change to:
 ```
-robot@<container-id>:~/robot_ws$
+robot@<container-id>:~/ros2_ws$
 ```
 
 ---
