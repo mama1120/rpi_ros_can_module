@@ -139,6 +139,11 @@ This will provide real-time feedback on the CAN communication status, such as:
 - Data acquisition
 - Bus availability or congestion
 
+To stop the CAN communication correctly, use the following command:
+
+```bash
+sudo ip link set can0 down
+```
 ---
 
 ### 5. Start the Docker Container
@@ -269,6 +274,17 @@ docker logs <container-name>
    candump can0 | grep "motion_controller"
    ```
 
+**CAN Communication Line Busy**
+If after starting the CAN communication you see the following, shut down the CAN communication and start it again:
+
+
+```bash
+RTNETLINK answers: Device or resource busy
+```
+To shutdown CAN:
+```bash
+sudo ip link set can0 down
+```
 ---
 
 ## Repository Structure
