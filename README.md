@@ -74,7 +74,7 @@ This project is part of a multi-repository system:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/mama1120/rpi_ros_can_module.git
 cd rpi_ros_can_module
 ```
 
