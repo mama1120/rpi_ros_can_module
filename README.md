@@ -42,8 +42,8 @@ The system consists of three motion controllers daisy-chained on the CANopen bus
 This project is part of a multi-repository system:
 
 - **🤖 Robot Control (This Repository)**: Raspberry Pi ROS2 control system with CANopen communication
-- **🖥️ Visualization Interface**: [Link to be added] - MoveIt/RViz interface for robot planning and control
-- **⚙️ Motion Controller Firmware**: [Link to be added] - Embedded firmware for the CANopen motion controllers
+- **🖥️ Visualization Interface**: ([ROS Workspace for the Robot Visualization](https://github.com/mama1120/robot_arm_control_UI_HKA))- MoveIt/RViz interface for robot planning, control and visualization
+- **⚙️ Motion Controller Firmware**: ([Firmware Project for the Motion Controllers](https://github.com/mama1120/robot_arm_motion_controller_STM32)) - Embedded firmware for the CANopen motion controllers
 
 ---
 
