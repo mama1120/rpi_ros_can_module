@@ -191,7 +191,11 @@ This will:
 - Launch planning and execution nodes
 - Connect via DDS to a remote visualization interface
 
-To move and plan robot motion, use the remote visualization interface on the second device (refer to that repository for instructions).
+To move and plan robot motion, use the remote visualization interface on the second device.
+
+When everything works, the UI will be able to control the robot as seen in the following gif:
+
+![Robot UI demo](readme_assets/robot_demo.gif)
 
 ---
 
